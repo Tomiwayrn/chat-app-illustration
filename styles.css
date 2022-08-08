@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+
+main {
+    background: linear-gradient( hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 0px 0px 40% 40%;
+    max-width: 480px;
+    height: 480px;
+    margin-bottom: 0%;
+}
+
+body{
+    position: absolute;
+    height: 100%vh;
+}
+
+
+.phone-container {
+    background: white;
+    width: 60%;
+    max-width: 420px;
+    border-radius: 20px;
+    padding:8px;
+    border-radius: 30px 30px 20px 20px;
+    transform: translate(50%);
+    box-shadow: 0px 0px 90px hsla(271, 36%, 24%, 0.3);
+    
+    
+}
+
+.phone-top {
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+
+.user-info h2 {
+    height: 13px;
+    width: 50%;
+     top: -10%;
+    position: absolute;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.user-info {
+    padding: 10px 0px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0px 10px 20px hsla(271, 36%, 14%, 0.2);
+    background: linear-gradient(to left,hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    font-size: 12px;
+}
+
+.user-text h4 {
+    color: white;
+    text-align: center;
+}
+
+.user-text p {
+    color: hsl(276, 100%, 81%);
+    text-align: center;
+}
+
+.arrow-user {
+    height: 10px;
+    transform: rotate(90deg);
+  
+}
+
+.user-img-container img {
+    border: 2px solid hsl(270, 20%, 90%);
+    height: 30px;
+    border-radius: 50%;
+     
+}
+
+.toggle {
+    color: white;
+    font-size: 20px; 
+    transform: rotate(270deg);  
+    justify-self: end;
+
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.5s ease-in;
+}
+
+.messages {
+    background: hsl(270, 20%, 96%);
+    padding: 5px;
+    height: auto;
+    font-size: 9px;
+    margin-top: -3px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.messages-incoming > p {
+    width: 60%;
+    color: hsl(276, 55%, 52%);
+    background: hsla(264, 100%, 61%, 0.1);
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 9px;
+    font-size: 9px;
+    box-shadow: 5px 5px 10px hsla(271, 36%, 64%, 0.1)
+}
+
+.img-sent-container {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: end;
+    
+}
+.img-sent-container img {
+    height: 40px;
+    border-radius: 25%;
+    box-shadow: 5px 10px 10px hsla(271, 36%, 34%, 0.1)
+}
+
+.messages-sent {
+    display: grid;
+   justify-items: end;
+   
+}
+
+
+.messages-sent p {
+   background: white;
+   padding: 10px;
+   margin-top: 3px;
+   border-radius: 10px;
+   max-width: 60%;
+   font-size: 9px;
+   color: hsl(271, 15%, 43%);
+   box-shadow: 5px 10px 10px hsla(271, 36%, 34%, 0.1);
+   
+}
+.incoming-message-infography div{
+    margin-top: 5px;
+    border-radius: 9px;
+    height: 30px;
+    align-items: center;
+    color: white;
+    display: grid;
+     gap: 20px;
+     font-size: 12px; 
+    justify-content: space-around;
+    grid-template-columns: 1fr 2fr 1fr;
+    box-shadow: 10px 5px 20px hsla(271, 36%, 24%, 0.1);
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+
+.incoming-message-infography div p {
+    color: hsl(270, 20%, 90%);
+    
+}
+
+.radio-btn {
+    /* color: red; */
+    height: 15px;
+    margin-bottom: 0 auto;
+    width: 15px;
+    border-radius: 100%;
+    margin-left: 10px;
+    border: 2px solid hsl(289, 100%, 72%);
+}
+
+.input-container {
+    background: white;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 3px 3px;
+    display: flex;
+}
+
+.arrow-btn {
+    font-size: 27px;
+    color: white;
+    padding: 2px 8px ;
+    background-color:  hsl(271, 36%, 24%);
+    border-radius: 50%;
+}
+
+input {
+    width: 87%;
+    border: none;
+    margin: 5px 5px;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+article {
+    text-align: center;
+    width: 90%;
+    transform: translateY(100%);
+    margin: 0 auto;
+    color: hsl(271, 36%, 14%);
+}
+
+article h1 {
+    color:hsl(271, 36%, 24%);
+}
+
+ footer {
+    margin-top: 100px;
+  transform: translateY(50%);
+    bottom: 100%;
+} 
+
+
+@media screen and (min-width:769px){
+    
+     article {
+        text-align: start;
+        width: 30%;
+        margin-top: -20%;
+        transform: translateY(100%);
+    }
+
+    article p {
+        margin-top: 24px;
+    }
+
+
+    body { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    main {
+        height: 540px;
+    }
+    
+
+    .phone-container {
+        transform: translate(70%);
+        margin-top: 40px;
+    }
+
+    footer {
+        position: absolute;
+        width: 50%;
+        transform: translate(50%);
+        bottom: 0%;
+    }
+}
